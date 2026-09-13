@@ -1,4 +1,8 @@
-# Pen Tools
+# Pen Tools — now PenTraceTools
+
+**The shared homepage is now [github.com/PenTraceTools](https://github.com/PenTraceTools).**
+This earlier overview remains as a navigation link; the two source repositories
+have moved to the organization without changing their pinned release contents.
 
 A shared home for a reusable pen-position filter and the application used to
 record, compare and investigate its behavior. **Experimental, source-first,
@@ -7,9 +11,9 @@ implementation or a binary installer.
 
 | Component | Start here | Role |
 | --- | --- | --- |
-| **pen-stabilizer** | [Source & integration](https://github.com/alexiokay/pen-stabilizer) · [v0.1.0](https://github.com/alexiokay/pen-stabilizer/releases/tag/v0.1.0) | MIT C++17 header-only local-normal position correction |
-| **PenTraceLab** | [Source & build instructions](https://github.com/alexiokay/pen-trace-lab) · [CI builds](https://github.com/alexiokay/pen-trace-lab/actions) | Windows pen/touch capture, raw/filtered comparison, replay and metrics |
-| **InfiniPaint integration** | [Fork: graphite-ui](https://github.com/alexiokay/infinipaint-ARM64-Windows/tree/graphite-ui) · [Upstream proposal #98](https://github.com/ErrorAtLine0/infinipaint/pull/98) | A drawing-app consumer; not the owner of the algorithm |
+| **pen-stabilizer** | [Source & integration](https://github.com/PenTraceTools/pen-stabilizer) · [v0.1.0](https://github.com/PenTraceTools/pen-stabilizer/releases/tag/v0.1.0) | MIT C++17 header-only local-normal position correction |
+| **PenTraceLab** | [Source & build instructions](https://github.com/PenTraceTools/pen-trace-lab) · [CI builds](https://github.com/PenTraceTools/pen-trace-lab/actions) | Windows pen/touch capture, raw/filtered comparison, replay and metrics |
+| **InfiniPaint integration** | [Fork: graphite-ui](https://github.com/alexiokay/infinipaint-Custom/tree/graphite-ui) · [Upstream proposal #98](https://github.com/ErrorAtLine0/infinipaint/pull/98) | A drawing-app consumer; not the owner of the algorithm |
 
 InfiniPaint is created and maintained by [ErrorAtLine0](https://github.com/ErrorAtLine0/infinipaint).
 The linked integration is a fork/proposal, not an upstream endorsement or merged feature.
@@ -71,6 +75,6 @@ invariants and regressions, not a guaranteed fix for slow diagonal wobble.
 Link cross-component issues rather than copying implementations. Keep private
 recordings local unless their owner explicitly chooses to share them.
 
-The repositories remain under the existing account, with independent issues and
-releases. No organization transfer or monorepo migration is required.
-
+The library and diagnostic app are now owned by PenTraceTools, with independent
+issues and releases. InfiniPaint remains an external consumer under its existing owner.
+The organization profile replaces this repository as the primary landing page.

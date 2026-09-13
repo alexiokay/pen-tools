@@ -52,6 +52,5 @@ cross-language protocol or Rust rewrite is promised in this project.
 ## Repository organization
 
 Keep the library small for consumers. Keep capture/diagnostic/rendering code in the
-apps. Use this overview to connect them. A GitHub organization could later provide
-a shared profile, but moving ownership is not necessary for source reuse/versioning.
-
+apps. Use this overview to connect them. The PenTraceTools organization now provides the shared profile. Ownership grouping
+does not change source pins or combine the projects into one package.
